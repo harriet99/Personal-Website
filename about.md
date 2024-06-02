@@ -4,42 +4,87 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Hi there, my name is Harriet Kim. I hope to do what I enjoy while making a positive impact on the world:)</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2> <i class="fa-solid fa-school"></i> Education</h2>
 
-<h2>Skills</h2>
-
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+<ul class="education-list">
+    <li>
+        <strong>BS in Computer Science</strong> <br>
+        <span>@Georgia Institute of Technology</span> <br>
+        <span>Concentration: Information Internetworks & Intelligence</span> <br>
+        <em>2021 - 2023</em>
+    </li>
+    <li>
+        <strong>MS in Computer Science</strong> <br>
+        <span>@Georgia Institute of Technology</span> <br>
+        <span>Concentration: Machine Learning</span> <br>
+        <em>2024 - 2025</em>
+    </li>
 </ul>
 
-<h2>Projects</h2>
+<h2><i class="fas fa-briefcase"></i> Experience</h2>
+
+<ul class="experience-list">
+    <li>
+        <strong>Software Research Intern | Samsung Electronics</strong> <br>
+        <span>Large Language Model (LLM) team</span> <br>
+        <em>Jun 2024 - Aug 2024</em>
+    </li>
+    <li>
+        <strong>Graduate Research Assistant | Ha Lab, Georgia Tech</strong> <br>
+        <span>Interplay between Task Learning and Skill Discovery for Agile Locomotion</span> <br>
+        <em>May 2024 - Present</em>
+    </li>
+    <li>
+        <strong>Software Engineering Intern | NCR Corporation</strong> <br>
+        <ul>
+            <li>
+                <span>Integrated WhatsApp and digital receipt service</span> <br>
+                <em>May 2023 - Aug 2023</em>
+            </li>
+            <li>
+                <span>Built a React-based API dashboard</span> <br>
+                <em>May 2022 - Aug 2022</em>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Teaching Assistant (Computer Systems and Networks) | Georgia Tech</strong> <br>
+        <em>Aug 2022 - May 2023</em>
+    </li>
+</ul>
+
+
+<h2><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h2>
+
+<ul class="skill-list">
+	<li>Python</li>
+	<li>Java</li>
+	<li>C#</li>
+	<li>C/C++</li>
+	<li>SQL</li>
+	<li>JavaScript</li>
+	<li>TypeScript</li>
+	<li>Go</li>
+	<li>React</li>
+	<li>HTML/CSS</li>
+	<li>Pytorch</li>
+	<li>Flask</li>
+	<li>Git</li>
+	<li>MongoDB</li>
+	<li>Docker</li>
+	<li>Kubernetes</li>
+	<li>CI/CD</li>
+	<li>Google Cloud Platform</li>
+	<li>AWS</li>
+	<li>Android</li>
+</ul>
+
+<!-- <h2>Projects</h2>
 
 <ul>
 	<li><a href="https://github.com/">Lorem Lorem</a></li>
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+</ul> -->
