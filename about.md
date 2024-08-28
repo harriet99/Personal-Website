@@ -13,13 +13,13 @@ layout: page
         <strong>BS in Computer Science</strong> <br>
         <span>@Georgia Institute of Technology</span> <br>
         <span>Concentration: Information Internetworks & Intelligence</span> <br>
-        <em>2021 - 2023</em>
+        <em>May 2021 - Dec 2023</em>
     </li>
     <li>
         <strong>MS in Computer Science</strong> <br>
         <span>@Georgia Institute of Technology</span> <br>
         <span>Concentration: Machine Learning</span> <br>
-        <em>2024 - 2025</em>
+        <em>Jan 2024 - May 2025</em>
     </li>
 </ul>
 
@@ -27,8 +27,13 @@ layout: page
 
 <ul class="experience-list">
     <li>
+        <strong>Graduate Teaching Assistant (Computer Animation) | Georgia Tech</strong> <br />
+        <em>Aug 2024 - Present</em>
+    </li>
+    <li>
         <strong>Software Research Intern | Samsung Electronics</strong> <br>
-        <span>Large Language Model (LLM) team</span> <br>
+        <span>Developed a product inquiry chatbot using Samsung’s Gauss Large Language Model(LLM)</span> <br>
+        <span>Added guardrail filter to the chatbot to ehance the filtering performance from 54% to 85%</span> <br>
         <em>Jun 2024 - Aug 2024</em>
     </li>
     <li>
