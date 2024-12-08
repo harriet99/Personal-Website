@@ -6,6 +6,10 @@ image: /assets/images/markdown.jpg
 headerImage: false
 star: true
 projects: true
+tag:
+- Java
+- Android Studio
+- OOP(Object Oriented Programming)
 ---
 
 <div style="text-align: center;">
@@ -14,7 +18,7 @@ projects: true
 
 ## Introduction
 
-I decided to create a **Power Defense Game**—a tower defense style mobile game developed in **Java** using **Android Studio**. This project served as a comprehensive exploration of game design principles, programming techniques, and user experience testing.
+I decided to create a **Power Defense Game**—a tower defense style mobile game developed in Java using Android Studio. This project served as a comprehensive exploration of game design principles, programming techniques, and user experience testing.
 
 ## Why a Tower Defense Game?
 

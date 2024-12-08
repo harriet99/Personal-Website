@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T04:29:29-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Harriet Kim</title><entry><title type="html">Selfinity AI (Personal Database)</title><link href="http://localhost:4000/selfinity-ai/" rel="alternate" type="text/html" title="Selfinity AI (Personal Database)" /><published>2023-12-05T22:44:00-05:00</published><updated>2023-12-05T22:44:00-05:00</updated><id>http://localhost:4000/selfinity-ai</id><content type="html" xml:base="http://localhost:4000/selfinity-ai/"><![CDATA[<div style="text-align: center;">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T04:32:55-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Harriet Kim</title><entry><title type="html">Selfinity AI (Personal Database)</title><link href="http://localhost:4000/selfinity-ai/" rel="alternate" type="text/html" title="Selfinity AI (Personal Database)" /><published>2023-12-05T22:44:00-05:00</published><updated>2023-12-05T22:44:00-05:00</updated><id>http://localhost:4000/selfinity-ai</id><content type="html" xml:base="http://localhost:4000/selfinity-ai/"><![CDATA[<div style="text-align: center;">
   <a href="https://github.com/harriet99/Selfinity_AI">GitHub</a>
 </div>
 
@@ -97,7 +97,7 @@ YouTube Video Scraping, Integration with Fitness and Health Apps, Auto-generated
 
 <h2 id="introduction">Introduction</h2>
 
-<p>I decided to create a <strong>Power Defense Game</strong>—a tower defense style mobile game developed in <strong>Java</strong> using <strong>Android Studio</strong>. This project served as a comprehensive exploration of game design principles, programming techniques, and user experience testing.</p>
+<p>I decided to create a <strong>Power Defense Game</strong>—a tower defense style mobile game developed in Java using Android Studio. This project served as a comprehensive exploration of game design principles, programming techniques, and user experience testing.</p>
 
 <h2 id="why-a-tower-defense-game">Why a Tower Defense Game?</h2>
 
@@ -222,4 +222,4 @@ After placement, the player can start combat. Enemies appear at the start of the
 
 <p>This tower defense project was a rewarding experience that combined programming, design, and user experience considerations. I learned a great deal about structuring a game loop, managing resources, and providing meaningful visual feedback to the player. The final result is a playable and (I hope) enjoyable tower defense game that I can continue to refine and build upon in the future.</p>
 
-<p>If you’re interested, give the demo a watch, or try it out if it becomes available. Thanks for reading!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[GitHub]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>If you’re interested, give the demo a watch, or try it out if it becomes available. Thanks for reading!</p>]]></content><author><name></name></author><category term="Java" /><category term="Android Studio" /><category term="OOP(Object Oriented Programming)" /><summary type="html"><![CDATA[GitHub]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
