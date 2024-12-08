@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T03:51:10-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Harriet Kim</title><entry><title type="html">Hive Guardian</title><link href="http://localhost:4000/hive-guardian/" rel="alternate" type="text/html" title="Hive Guardian" /><published>2022-05-10T22:44:00-04:00</published><updated>2022-05-10T22:44:00-04:00</updated><id>http://localhost:4000/hive-guardian</id><content type="html" xml:base="http://localhost:4000/hive-guardian/"><![CDATA[<div style="text-align: center;">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T04:29:29-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Harriet Kim</title><entry><title type="html">Selfinity AI (Personal Database)</title><link href="http://localhost:4000/selfinity-ai/" rel="alternate" type="text/html" title="Selfinity AI (Personal Database)" /><published>2023-12-05T22:44:00-05:00</published><updated>2023-12-05T22:44:00-05:00</updated><id>http://localhost:4000/selfinity-ai</id><content type="html" xml:base="http://localhost:4000/selfinity-ai/"><![CDATA[<div style="text-align: center;">
+  <a href="https://github.com/harriet99/Selfinity_AI">GitHub</a>
+</div>
+
+<p><strong>This was a project for the AI ATL hackathon, and we won the second place.</strong></p>
+
+<p>Check out our demo video:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9ljQDnSfQ00?start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+
+<h2 id="-inspiration">💡 Inspiration</h2>
+
+<p>Our project was inspired by a critical realization that resonated in both our personal and professional realms – the challenge of efficiently managing and accessing data.</p>
+
+<p>In our personal lives, valuable hours that could be dedicated to loved ones are often lost in managing emails, social media, and numerous digital tasks. This universal challenge led us to envision a unified, AI-driven tool designed to streamline the management of digital information. Our goal was to create an assistant that simplifies these tasks and enhances personal life by efficiently organizing everyday digital interactions. Our vision was to develop a solution that could help reclaim these lost hours, transforming them into productive and meaningful time by managing personal data more efficiently.</p>
+
+<p>In the professional world, we noticed a substantial drain on resources: employees frequently spend a significant amount of time navigating between various files and knowledge databases. This inefficiency is not only time-consuming but also costly. The onboarding process for new employees often translates into thousands to tens of thousands of dollars in training expenses and diverted attention from other staff. This investment continues until the employee becomes fully comfortable and competent in their role. The indirect costs, including the time senior employees spend explaining processes instead of focusing on their primary tasks, further amplify these expenses.</p>
+
+<h2 id="-what-it-does">💎 What it does</h2>
+
+<p>Our AI assistant serves as a comprehensive digital life co-pilot, redefining the way we interact with our digital lives. Its capabilities go beyond mere data consolidation; it actively assists in managing and interpreting information:</p>
+
+<p>Diverse Service Integration: It connects with a range of services, including financial platforms through Plaid and email services via the Gmail API. This integration allows the assistant to pull relevant data from these services directly, providing a holistic view of your financial and communication landscapes.</p>
+
+<p>Manual File Uploads: For data not automatically captured through service integrations, the assistant offers a manual upload feature. This allows you to directly upload files such as PDFs, documents, and other important data, ensuring that all your information can be centralized and accessed through the assistant.</p>
+
+<p>Automated Browsing Data Collection: With your permission, the assistant can automatically scrape your browsing history and bookmarks. This feature is designed to gather data from your online activities, providing insights and summaries of the websites and resources you frequent. It’s an optional feature that you can enable or disable based on your privacy preferences.</p>
+
+<p>User-Driven Customization: The level of integration and data collection is entirely under your control. You can choose which services to connect, what files to upload, and whether to enable automatic data scraping. This flexibility ensures that your assistant is tailored to your specific needs and comfort with data sharing.</p>
+
+<p>Document Summarization and Connection Building: The assistant provides concise summaries and allows you to interact with you via chatbot interface. It intelligently links concepts and ideas across various articles and mediums of information, drawing connections that might otherwise go unnoticed, thereby enriching the user’s understanding and knowledge base. If you prefer to view them in a more standardized way, a customizable dashboard view will conveniently display your information.</p>
+
+<p>Email Management: It sifts through your inbox, identifying and summarizing emails that require immediate attention. This feature not only saves time but ensures that important communications are not overlooked in the daily deluge of emails.</p>
+
+<p>Calendar Management: The assistant keeps track of your schedule, bringing up calendar invites and reminders so that no important event or meeting is missed. This proactive approach to time management helps users stay organized and punctual.</p>
+
+<p>Financial Insight: By analyzing your banking data, the AI assistant provides insights into your spending habits. It can identify trends, suggest budgets, and offer advice on financial decisions. This feature aims to promote better financial management and awareness, allowing users to make more informed choices about their spending.</p>
+
+<p>In essence, our AI assistant is not just a tool for data organization; it’s an intelligent companion designed to optimize your digital interaction, saving time and reducing stress. By automating mundane tasks and providing insightful analysis, it allows users to focus on what truly matters, enhancing both professional efficiency and personal life quality.</p>
+
+<h2 id="-how-we-built-it">🛠 How we built it</h2>
+
+<p>Building our AI assistant was a complex process that combined state-of-the-art technologies and innovative methodologies:</p>
+
+<p>Data Compilation Pipeline: We began with a Python pipeline to compile and collect diverse data sources, including browsing history, emails, and financial transactions. This step was crucial for creating a unified data format for further processing.</p>
+
+<p>Pinecone Vector Database Integration: Post compilation, the data was processed and embedded into a Pinecone vector database, chosen for its efficiency in managing large volumes of vectorized data.</p>
+
+<p>Embedding with OpenAI’s Ada Model: For embedding the data, we utilized OpenAI’s Ada model. Ada’s balance of performance and efficiency made it ideal for embedding our varied datasets while maintaining contextual relevance and accuracy.</p>
+
+<p>Retrieval Augmented Generation Using GPT-4 Turbo: At the core of our AI assistant’s intelligence was the Retrieval Augmented Generation, powered by OpenAI’s GPT-4 Turbo model. This approach enabled dynamic interaction with the embedded data, ensuring accurate and contextually relevant responses.</p>
+
+<p>Front End Development with Jinja2: We designed the user interface using Jinja2, a flexible and designer-friendly templating language for Python, enabling us to create a responsive and interactive front end.</p>
+
+<p>Back End Development with FastAPI: FastAPI was our choice for the back end development. This modern, fast web framework was instrumental in building APIs with Python, ensuring efficient request handling and seamless integration with the front end.</p>
+
+<p>LangChain for Language Model Integration: We incorporated LangChain, a framework specifically designed to facilitate the creation of applications using large language models. LangChain was instrumental in enhancing our assistant’s capabilities in document analysis, summarization, chatbot functionalities, and code analysis.</p>
+
+<p>API Integrations: Our system integrated APIs like Gmail and Plaid for accessing email and financial data. We also created custom scripts for scraping browsing history and bookmarks, enriching the assistant’s data pool.</p>
+
+<p>Security and Privacy Protocols: Given the sensitive nature of the data, we adhered to strict security and privacy protocols. All data handling and storage complied with top-tier data protection standards.</p>
+
+<p>User-Centric Interface and Experience: The user interface, powered by Jinja2, was crafted with a focus on simplicity and intuitiveness. Features like a customizable dashboard and a chatbot interface made our assistant accessible and easy to use for a diverse user base.</p>
+
+<h2 id="️-challenges-we-ran-into">️😰 Challenges we ran into</h2>
+
+<p>Our journey in building the AI assistant was marked by a diverse array of challenges, each contributing to the project’s depth and sophistication:</p>
+
+<p>Integrating Diverse Data Types: A major challenge was integrating various data types into a cohesive system. This task was particularly complex as we navigated the technical demands while supporting team members experiencing their first hackathon.</p>
+
+<p>Optimization for GPT-4 Turbo Model: Tailoring the system to work efficiently with the GPT-4 Turbo model requires detailed and iterative optimization. Achieving high efficiency and accuracy in responses was a nuanced and ongoing process.</p>
+
+<p>Connecting Multiple Services: We faced significant technical hurdles in integrating several services. This included the Gmail and Plaid APIs for accessing email and financial data, Pinecone for vector database management, LangChain for leveraging language models, and the OpenAI API for advanced AI functionalities. Each of these integrations was critical to ensure a comprehensive functionality and seamless user experience for our assistant.</p>
+
+<p>Handling Large Arrays of Data and Token Usage: Managing a vast volume of data and optimizing token usage for data processing and API interactions posed a substantial challenge. Ensuring efficient data handling was crucial for system stability and responsiveness.</p>
+
+<h2 id="️-accomplishments-that-were-proud-of">⭐️ Accomplishments that we’re proud of</h2>
+
+<p>We take immense pride in our achievements with this project, especially considering the diversity of our team, which included many beginners and first-time hackathon participants. We successfully integrated a multitude of data types into a unified AI assistant that provides accurate and relevant responses. The ability of our system to handle a broad spectrum of queries with precision and efficiency stands as a testament to the robust integration of OpenAI’s technologies with our innovative data processing techniques. This accomplishment is particularly noteworthy given the varying levels of experience within our team, highlighting our collective growth and learning throughout this project.</p>
+
+<h2 id="-whats-next">🔮 What’s next</h2>
+
+<p>Our vision for the AI assistant extends beyond its current capabilities, as we aim to develop it into a commercially viable product that appeals to both B2B and B2C markets. This ambitious goal involves a series of strategic steps:</p>
+
+<p>Iterative Development and User Feedback: We plan to engage in numerous iterations and extensive user interviews. This process is vital for refining our understanding of the value proposition and ensuring that our product aligns with the needs and expectations of our users.</p>
+
+<p>Expanding Functionalities: To enhance user experience and utility, we will introduce new features such as:
+YouTube Video Scraping, Integration with Fitness and Health Apps, Auto-generated To-Do Lists, Automatic Responses and Task Completions, Media Suggestions, and Messenger Compilations.</p>
+
+<p>Product-Market Fit: A key focus will be on finding the product-market fit that effectively addresses the pain points of our customers, improving outcomes in their personal and professional lives.</p>
+
+<p>User-Centric Approach: By continuously iterating based on user feedback and adapting our strategies, we aim to make our assistant a solution that not only manages digital information but also provides meaningful and practical assistance.</p>
+
+<p>Our journey ahead involves adapting and innovating to create a product that is technologically sophisticated, intuitive, and impactful. The goal is to make our AI assistant a fundamental part of users’ lives, enriching their experiences through advanced information management and insightful assistance, tailored to their unique needs and preferences.</p>]]></content><author><name></name></author><category term="fastapi" /><category term="gcp" /><category term="google-gmail-oauth" /><category term="huggingface" /><category term="jinja" /><category term="langchain" /><category term="openai" /><category term="pinecone" /><category term="plaid" /><category term="python" /><summary type="html"><![CDATA[GitHub]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hive Guardian</title><link href="http://localhost:4000/hive-guardian/" rel="alternate" type="text/html" title="Hive Guardian" /><published>2022-05-10T22:44:00-04:00</published><updated>2022-05-10T22:44:00-04:00</updated><id>http://localhost:4000/hive-guardian</id><content type="html" xml:base="http://localhost:4000/hive-guardian/"><![CDATA[<div style="text-align: center;">
   <a href="https://github.com/harriet99/Tower-Jackets">GitHub</a>
 </div>
 
