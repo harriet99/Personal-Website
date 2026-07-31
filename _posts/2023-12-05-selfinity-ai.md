@@ -2,6 +2,7 @@
 title: "Selfinity AI (Personal Database)"
 layout: post
 date: 2023-12-05 22:44
+author: harrietkim
 image: /assets/images/markdown.jpg
 headerImage: false
 star: true

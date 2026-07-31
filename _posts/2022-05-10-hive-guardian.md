@@ -2,6 +2,7 @@
 title: "Hive Guardian"
 layout: post
 date: 2022-05-10 22:44
+author: harrietkim
 image: /assets/images/markdown.jpg
 headerImage: false
 star: true

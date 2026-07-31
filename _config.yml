@@ -18,7 +18,7 @@ dark-theme: auto
 # and specify source (external or local).
 resume: false
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+# resume-url: add a link here if you enable `resume` above
 
 url: https://harrietkim.com
 # your url: https://USERNAME.github.io
@@ -28,10 +28,10 @@ permalink: /:title/
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
-# if you don't want comments in your posts, leave categories empty
+# Disqus comments are disabled (no account set up) — leave categories empty
 disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname:
+  categories: []
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -42,18 +42,11 @@ github: harriet99
 email: kjmicom22@gmail.com
 
 authors:
-  johndoe:
+  harrietkim:
     name: Harriet Kim
     bio: Traveler. Explorer. Developer.
     external-image: false
     picture: assets/images/profile1.jpg
-    # twitter: johndoe
-  # jamesfoster:
-  #   name: James Foster
-  #   bio: A Man who develops software with coffee
-  #   external-image: false
-  #   picture: assets/images/james.jpg
-  #   twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
