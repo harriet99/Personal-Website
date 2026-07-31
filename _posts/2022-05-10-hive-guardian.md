@@ -3,7 +3,7 @@ title: "Hive Guardian"
 layout: post
 date: 2022-05-10 22:44
 author: harrietkim
-image: /assets/images/markdown.jpg
+image: /assets/images/hive_guardian_cover.png
 headerImage: false
 star: true
 projects: true
