@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi there, my name is Harriet Kim. I hope to do what I enjoy while making a positive impact on the world:)</p>
+<p>Hi there, this is Harriet Kim. I'm driven by curiosity to find everyday pain points and turn them into simple, useful products that make a positive impact:)</p>
 
 <h2> <i class="fa-solid fa-school"></i> Education</h2>
 
@@ -27,8 +27,12 @@ layout: page
 
 <ul class="experience-list">
     <li>
+        <strong>Software Engineer | Persona Identities</strong> <br />
+        <em>May 2025 - Present</em>
+    </li>
+    <li>
         <strong>Graduate Teaching Assistant (Computer Animation) | Georgia Tech</strong> <br />
-        <em>Aug 2024 - Present</em>
+        <em>Aug 2024 - May 2025</em>
     </li>
     <li>
         <strong>Software Research Intern | Samsung Electronics</strong> <br>
@@ -66,6 +70,7 @@ layout: page
 <ul class="skill-list">
 	<li>Python</li>
 	<li>Java</li>
+    <li>Ruby</li>
 	<li>C#</li>
 	<li>C/C++</li>
 	<li>SQL</li>
@@ -73,6 +78,7 @@ layout: page
 	<li>TypeScript</li>
 	<li>Go</li>
 	<li>React</li>
+    <li>Rails</li>
 	<li>HTML/CSS</li>
 	<li>Pytorch</li>
 	<li>Flask</li>
