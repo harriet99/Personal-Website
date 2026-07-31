@@ -112,6 +112,5 @@ exclude:
     "README.md",
     "Gemfile",
     "Gemfile.lock",
-    "FAQ.md",
     "vendor",
   ]
